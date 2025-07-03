@@ -1,0 +1,20 @@
+titanic-survival-prediction/
+├── data/
+│   ├── raw/               # Raw CSVs downloaded from Kaggle
+│   └── processed/         # Cleaned & feature‑engineered files
+├── notebooks/
+│   ├── 01_exploration.ipynb
+│   └── 02_modeling.ipynb
+├── src/                   # Re‑usable Python modules
+│   ├── __init__.py
+│   ├── data.py            # Load / save functions
+│   ├── features.py        # Cleaning & feature engineering
+│   ├── model.py           # Model definitions
+│   ├── train.py           # CLI: train & save model
+│   └── predict.py         # CLI: load model & predict new rows
+├── tests/                 # pytest unit tests
+├── .gitignore
+├── requirements.txt
+├── environment.yml
+├── LICENSE
+└── README.md              # <‑‑ rendered below
