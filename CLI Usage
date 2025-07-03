@@ -1,0 +1,7 @@
+# Train a tuned Gradient Boosting model
+python -m src.train --model gbdt --optuna 50
+
+# Predict survival for new passengers
+python -m src.predict --model_path models/model.joblib \
+                      --input data/raw/test.csv \
+                      --output predictions.csv
